@@ -1,0 +1,4 @@
+1. Tener instalado python o python3 en el sistema.
+2. Tener instalado postgressql en el sistema.
+3. Instalar pip (administrador de paquetes de python)
+4. Instalar psycopg2 (libreria para conectar python y postgressql)
