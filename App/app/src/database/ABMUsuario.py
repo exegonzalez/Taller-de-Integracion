@@ -26,8 +26,9 @@ def modificarusuario(usuario):
     cur.execute(sql)
     cerrarconexion(cur,con)
 
+"""
 user = Usuario()
-user.set_email("hola@gmail.com")
+user.set_email("nuevo@gmail.com")
 user.set_apellido("gonzalez")
 user.set_ciudad("CdelU")
 user.set_contrasenia("123455")
@@ -36,7 +37,9 @@ user.set_nombreuser("holajuan")
 user.set_direccion("asdsadasds")
 user.set_rol(1)
 user.set_telefono("111111")
-#  print(type(user.get_apellido()))
-#altausuario(user)
-#bajausuario(user)
-#modificarusuario(user)
+
+print(type(user.get_apellido()))
+altausuario(user)
+bajausuario(user)
+modificarusuario(user)
+"""

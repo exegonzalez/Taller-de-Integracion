@@ -1,7 +1,8 @@
 class Combo():
 
-    def __init__(self, codigo=None, precio=None, fechainicio=None, fechafinal=None, descripcion=None):
+    def __init__(self, codigo=None, nombre=None, precio=None, fechainicio=None, fechafinal=None, descripcion=None):
         self.codigo = codigo
+        self.nombre = nombre
         self.precio = precio
         self.fechainicio = fechainicio
         self.fechafinal = fechafinal
@@ -12,6 +13,12 @@ class Combo():
     
     def set_codigo(self, codigo) :
         self.codigo = codigo
+
+    def get_nombre(self):
+      return self.nombre
+
+    def set_nombre(self, nombre) :
+        self.nombre = nombre
 
     def get_precio(self):
         return self.precio

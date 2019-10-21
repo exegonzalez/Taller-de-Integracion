@@ -22,14 +22,16 @@ def modificarproveedor(proveedor):
     cur.execute(sql)
     cerrarconexion(cur,con)
 
+"""
 prov = Proveedor()
-prov.set_cuit("4223324")
+prov.set_cuit("1")
 prov.set_ciudad("cdelu")
 prov.set_direccion("hola123")
 prov.set_email("prueba@gmail.com")
 prov.set_telefono("2332442")
 prov.set_nombre("cambio")
 
-#altaproveedor(prov)
-#bajaproveedor(prov)
-#modificarproveedor(prov)
+altaproveedor(prov)
+bajaproveedor(prov)
+modificarproveedor(prov)
+"""
