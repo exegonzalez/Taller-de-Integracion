@@ -1,19 +1,18 @@
-class Comentario():
+class Calificacion():
 
-    def __init__(self, codigo=None, fecha=None, hora=None, contenido=None, usuario=None,
+    def __init__(self, calificacion=None, fecha=None, hora=None, usuario=None,
     producto=None):
-        self.codigo = codigo
+        self.calificacion = calificacion
         self.fecha = fecha
         self.hora = hora
-        self.contenido = contenido
         self.usuario = usuario
         self.producto = producto
 
-    def get_codigo(self):
-        return self.codigo
+    def get_calificacion(self):
+        return self.calificacion
     
-    def set_codigo(self, codigo) :
-        self.codigo = codigo
+    def set_calificacion(self, calificacion) :
+        self.calificacion = calificacion
 
     def get_fecha(self):
         return self.fecha
@@ -26,13 +25,7 @@ class Comentario():
     
     def set_hora(self, hora) :
         self.hora = hora
-
-    def get_contenido(self):
-        return self.contenido
-    
-    def set_contenido(self, contenido) :
-        self.contenido = contenido
-
+        
     def get_usuario(self):
         return self.usuario
     
