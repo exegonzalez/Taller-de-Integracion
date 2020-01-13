@@ -10,4 +10,14 @@ end
 $BODY$
 LANGUAGE 'plpgsql';
 
-select * from ProductosDeUnCombo(1)
+-- Funcion para obtener los comentarios de un producto
+/*CREATE OR REPLACE FUNCTION ComentariosDeUnProducto(integer) RETURNS TABLE (codigo integer, fecha date, hora time, contenido varchar(255), usuario varchar(255), producto integer) AS
+$BODY$
+DECLARE
+BEGIN
+	return query (select c.codigo, c.fecha, c.hora, c.contenido, c.usuario, c.producto
+		from comentario c 
+		where c.producto=$1);
+end
+$BODY$
+LANGUAGE 'plpgsql';*/
