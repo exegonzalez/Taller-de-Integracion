@@ -21,3 +21,37 @@ BEGIN
 end
 $BODY$
 LANGUAGE 'plpgsql';*/
+
+--Funcion para obtener los productos y combos de un carrito
+CREATE OR REPLACE FUNCTION ProductosDeUnCarrito(integer) RETURNS TABLE (codigo integer, nombre varchar(255), descripcion varchar(255), preciounidad float, cantidadproducto integer, totalproducto float) AS
+$BODY$
+DECLARE
+BEGIN
+	return query (select l.codigo, p.nombre, p.descripcion, p.precio, l.cantidadproducto, l.totalproducto
+		from producto p, linea l 
+		where (l.carrito=$1) and (l.producto=p.codigo) and (l.producto is not null));
+end
+$BODY$
+LANGUAGE 'plpgsql';
+
+CREATE OR REPLACE FUNCTION CombosDeUnCarrito(integer) RETURNS TABLE (codigo integer, nombre varchar(255), descripcion varchar(255), preciounidad float, cantidadproducto integer, totalproducto float) AS
+$BODY$
+DECLARE
+BEGIN
+	return query (select l.codigo, c.nombre, c.descripcion, c.precio, l.cantidadproducto, l.totalproducto
+		from combo c, linea l 
+		where (l.carrito=$1) and (l.combo=c.codigo) and (l.combo is not null));
+end
+$BODY$
+LANGUAGE 'plpgsql';
+
+CREATE OR REPLACE FUNCTION UnionCarrito(integer) RETURNS TABLE (codigo integer, nombre varchar(255), descripcion varchar(255), preciounidad float, cantidadproducto integer, totalproducto float) AS
+$BODY$
+DECLARE
+BEGIN
+	return query ((select * from ProductosDeUnCarrito($1)) union (select * from CombosDeUnCarrito($1)));
+end
+$BODY$
+LANGUAGE 'plpgsql';
+
+--select * from UnionCarrito(8)
