@@ -58,8 +58,7 @@ BEGIN
 	ELSIF (OLD.estado='FINALIZADA') THEN
 		RAISE EXCEPTION 'No se puede cambiar el estado de una compra finalizada';
 	ELSIF (OLD.estado='ESPERA' and OLD.total=NEW.total and OLD.fecha=NEW.fecha and OLD.hora=NEW.hora and 
-		  OLD.numerotarjeta=NEW.numerotarjeta and OLD.tipotarjeta=NEW.tipotarjeta and OLD.carrito=NEW.carrito and
-		  OLD.usuario=NEW.usuario) THEN
+		  OLD.carrito=NEW.carrito and OLD.usuario=NEW.usuario) THEN
 		RETURN NEW;
 	ELSE
 		RAISE EXCEPTION 'No se pueden cambiar los valores de la compra, solo su estado';

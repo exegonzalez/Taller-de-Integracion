@@ -11,7 +11,7 @@ create table rol(
 create table usuario(
 	email varchar(255) NOT NULL unique,
 	nombreuser varchar(70) NOT NULL,
-	contrasenia varchar(30) NOT NULL,
+	urlfoto varchar(2083),
 	rol integer NOT NULL,
 	nombre varchar(50),
 	apellido varchar(50),
@@ -50,6 +50,7 @@ create table producto(
 	calificacion integer NOT NULL check(calificacion in (0,1,2,3,4,5)) default 0,
 	proveedor varchar(11) NOT NULL,
 	tipo integer NOT NULL,
+	urlfoto varchar(2083) NOT NULL,
 	constraint "producto_pkey" Primary Key (codigo),	
 	foreign key (proveedor) references proveedor deferrable,
 	foreign key (tipo) references tipo deferrable
@@ -85,6 +86,7 @@ create table combo(
 	fechainicio date NOT NULL,
 	fechafinal date NOT NULL check (fechainicio<=fechafinal),
 	descripcion varchar(255) NOT NULL,
+	urlfoto varchar(2083) NOT NULL,
 	constraint "combo_pkey" Primary Key (codigo)
 );
 
@@ -119,8 +121,6 @@ create table compra(
 	total float NOT NULL check(total>0),
 	fecha date NOT NULL,
 	hora time NOT NULL,
-	numerotarjeta varchar(20) NOT NULL,
-	tipotarjeta varchar(30) NOT NULL,
 	carrito integer NOT NULL unique,
 	usuario varchar(255) NOT NULL,
 	estado varchar(30) NOT NULL default 'ESPERA',

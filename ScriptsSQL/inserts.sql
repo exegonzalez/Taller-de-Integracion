@@ -23,32 +23,32 @@ insert into tipo values(6, 'OTRO');
 
 
 -- Productos --
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Mate Uruguayo Calabaza', 500, 700, 'Mate Uruguayo hecho de las mejores calabazas', '3011111111', 1);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Mate Uruguayo Cuero', 500, 900, 'Mate Uruguayo de cuero; colores: negro y marron', '3011111111', 1);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Mate Madera', 500, 400, 'Mate hecho de madera de calden; colores: rosa, azul, amarillo, negro', '3022222222', 1);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Mate Uruguayo Camionero Premium', 500, 1200, 'Mates realizados con calabazas y cuero finamente seleccionados', '3033333333', 1);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Bombilla Pico Loro Tambor', 500, 295, 'Bombilla Uruguaya Pico de Loro, de acero inoxidable, tipo tambor', '3044444444', 3);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Bombilla Metalica', 500, 199, 'Bombillas metalicas de varios colores de tipo resorte', '3044444444', 3);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Yerba Marolio', 494, 100, 'Yerba Mate Marolio, Marolio le da sabor a tu vida', '3055555555', 5);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Bolso para Mate Tahg', 500, 750, 'Bolso con cierre, tipo tahg, con bolsillo frontal', '3066666666', 4);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Bolso para Mate Gamuza', 5, 859, 'Bolso porta termo negro de poliester con gamuza', '3066666666', 4);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Automate Forrado', 500, 400, 'Mate Listo Automate Forrado de Metal 500cc', '3088888888', 6);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Termo Waterdog', 500, 2100, 'Termo Waterdog de acero inoxidable, de 1 litro, tipo bala', '3099999999', 2);
-insert into producto(nombre, stock, precio, descripcion, proveedor, tipo)
-	values('Termo Aluminio', 500, 500, 'Termo Aluminio Doble Capa Varios Colores 1 Litro', '3099999999', 2);
-insert into producto(nombre,stock,precio,descripcion,proveedor,tipo)
-	values('Termo Stanley', 500, 3500, 'El mismo termo pero careta', '3099999999',2);
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Mate Uruguayo Calabaza', 500, 700, 'Mate Uruguayo hecho de las mejores calabazas', '3011111111', 1, 'https://d26lpennugtm8s.cloudfront.net/stores/765/405/products/sin-titulo-11-30d5dac84efe61e24815768642317126-1024-1024.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Mate Uruguayo Cuero', 500, 900, 'Mate Uruguayo de cuero; colores: negro y marron', '3011111111', 1, 'https://http2.mlstatic.com/mate-uruguayo-cuero-bombilla-tipo-pico-de-loro-D_NQ_NP_674532-MLA32683711718_102019-Q.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Mate Madera', 500, 400, 'Mate hecho de madera de calden; colores: rosa, azul, amarillo, negro', '3022222222', 1, 'https://http2.mlstatic.com/mate-bombilla-mijo-colores-matero-madera-calden-trendy-D_NQ_NP_857835-MLA31057578520_062019-Q.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Mate Uruguayo Camionero Premium', 500, 1200, 'Mates realizados con calabazas y cuero finamente seleccionados', '3033333333', 1, 'https://http2.mlstatic.com/mate-uruguayo-camionero-premium-de-cuero-pico-loro-alpaca-D_NQ_NP_967408-MLA40098259991_122019-F.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Bombilla Pico Loro Tambor', 500, 295, 'Bombilla Uruguaya Pico de Loro, de acero inoxidable, tipo tambor', '3044444444', 3, 'https://http2.mlstatic.com/bombillas-metalicas-metal-reutilizable-con-cepillo-limpiador-D_NQ_NP_997364-MLC31367461341_072019-Q.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Bombilla Metalica', 500, 199, 'Bombillas metalicas de varios colores de tipo resorte', '3044444444', 3, 'https://mercadodevida.es/image/cache/data/natural/bombilla-metalica-mate-natural-600x800.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Yerba Marolio', 494, 100, 'Yerba Mate Marolio, Marolio le da sabor a tu vida', '3055555555', 5, 'http://acmedistribuidora.com.ar/image/cache/catalog/YERBA%20MAROLIO-500x500.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Bolso para Mate Tahg', 500, 750, 'Bolso con cierre, tipo tahg, con bolsillo frontal', '3066666666', 4, 'https://http2.mlstatic.com/bolso-para-mate-equipo-matero-porta-termo-tahg-D_NQ_NP_725317-MLA31605575853_072019-F.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Bolso para Mate Gamuza', 5, 859, 'Bolso porta termo negro de poliester con gamuza', '3066666666', 4, 'https://http2.mlstatic.com/porta-termo-equipo-para-mate-personalizado-tela-poliester-D_NQ_NP_743191-MLA40285172313_122019-F.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Automate Forrado', 500, 400, 'Mate Listo Automate Forrado de Metal 500cc', '3088888888', 6, 'https://http2.mlstatic.com/mate-listo-automate-forrado-perfume-bombilla-metal-500-cc-D_NQ_NP_745141-MLA32835724699_112019-F.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Termo Waterdog', 500, 2100, 'Termo Waterdog de acero inoxidable, de 1 litro, tipo bala', '3099999999', 2, 'https://i.linio.com/p/37863c73985d85a686031f4a2282379b-product.jpg');
+insert into producto(nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Termo Aluminio', 500, 500, 'Termo Aluminio Doble Capa Varios Colores 1 Litro', '3099999999', 2, 'https://tu-aventura.com.ar/wp-content/uploads/2019/12/738060-MLA31346893789_072019-O.jpg');
+insert into producto( nombre, stock, precio, descripcion, proveedor, tipo, urlfoto)
+	values('Termo Stanley', 500, 3500, 'El mismo termo pero careta', '3099999999',2, 'https://www.cellshop.com/v2/917996-large_default/termo-stanley-classic-legendary-10-07933-001-1-4l--verde-hammertone.jpg');
 
 -- Roles --
 insert into rol(nombre) values('ADMINISTRADOR GENERAL');
@@ -59,47 +59,47 @@ insert into rol(nombre) values('CLIENTE');
 
 -- Usuarios --
 insert into usuario values(
-	'exe.gye@gmail.com', 'Exegye', 'exe123', 1, 'Exequiel', 'Gonzalez', '25 de Agosto 231', 'Concepcion del Uruguay', '3442647543');
+	'exe.gye@gmail.com', 'Exegye', 'https://lh3.googleusercontent.com/a-/AAuE7mCIqrHBqnjQi-Jh7jYSNqYYXU3g3Kb4Bas4g9EcBQ', 1, 'Exequiel', 'Gonzalez', '25 de Agosto 231', 'Concepcion del Uruguay', '3442647543');
 insert into usuario values(
-	'juancurtoni@gmail.com', 'Pipa Benedeto', 'juan123', 2, 'Juan', 'Curtoni', 'San Martin 362', 'Concepcion del Uruguay', '3445536635');
+	'juancurtoni@gmail.com', 'Pipa Benedeto', 'https://static.thenounproject.com/png/17241-200.png', 2, 'Juan', 'Curtoni', 'San Martin 362', 'Concepcion del Uruguay', '3445536635');
 insert into usuario values(
-	'sanchezhernan@gmail.com', 'Hornit0', 'hernan123', 3, 'Hernan', 'Sanchez', 'J. Peron 465', 'Concepcion del Uruguay', '3445431625');
+	'sanchezhernan@gmail.com', 'Hornit0', 'https://static.thenounproject.com/png/17241-200.png', 3, 'Hernan', 'Sanchez', 'J. Peron 465', 'Concepcion del Uruguay', '3445431625');
 insert into usuario values(
-	'lazaro@gmail.com', 'Lazaro', 'laza123', 4, 'Lazaro', 'Rodriguez', '9 de Julio 3441', 'La Plata', '2114526721');
+	'lazaro@gmail.com', 'Lazaro', 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/User_with_smile.svg/600px-User_with_smile.svg.png', 4, 'Lazaro', 'Rodriguez', '9 de Julio 3441', 'La Plata', '2114526721');
 insert into usuario values(
-	'kevinchen@gmail.com', 'Kevin', 'kevin123', 4, 'Kevin', 'Chen', '12 de Octubre 552', 'Concepcion del Uruguay', '3442647543');
+	'kevinchen@gmail.com', 'Kevin', 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/User_with_smile.svg/600px-User_with_smile.svg.png', 4, 'Kevin', 'Chen', '12 de Octubre 552', 'Concepcion del Uruguay', '3442647543');
 insert into usuario values(
-	'verocafrete@gmail.com', 'Verost', 'vero123', 4, 'Veronica', 'Frete', 'J. J. Urquiza 41', 'Posadas', '3764256216');
+	'verocafrete@gmail.com', 'Verost', 'https://static.thenounproject.com/png/17241-200.png', 4, 'Veronica', 'Frete', 'J. J. Urquiza 41', 'Posadas', '3764256216');
 insert into usuario values(
-	'danieldorado@gmail.com', 'Puerco', 'dani123', 4, 'Daniel', 'Dorado', 'Corrientes 467', 'Cordoba', '3511232597');
+	'danieldorado@gmail.com', 'Puerco', 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/User_with_smile.svg/600px-User_with_smile.svg.png', 4, 'Daniel', 'Dorado', 'Corrientes 467', 'Cordoba', '3511232597');
 insert into usuario values(
-	'luisreyes@gmail.com', 'Luisito', 'luis123', 4, 'Luis', 'Reyes', '25 de Agosto 231', 'Mar del Plata', '2236548962');
+	'luisreyes@gmail.com', 'Luisito', 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/User_with_smile.svg/600px-User_with_smile.svg.png', 4, 'Luis', 'Reyes', '25 de Agosto 231', 'Mar del Plata', '2236548962');
 insert into usuario values(
-	'tamaralozano@gmail.com', 'Tami22', 'tami123', 4, 'Tamara', 'Lozano', 'Colon 668', 'Naschel', '2656332584');
+	'tamaralozano@gmail.com', 'Tami22', 'https://static.thenounproject.com/png/17241-200.png', 4, 'Tamara', 'Lozano', 'Colon 668', 'Naschel', '2656332584');
 insert into usuario values(
-	'carlospalacios@gmail.com', 'CarlosP', 'carlos123', 4, 'Carlos', 'Palacios', '3 de Febrero 989', 'General Pico', '2302424562');
+	'carlospalacios@gmail.com', 'CarlosP', 'https://static.thenounproject.com/png/17241-200.png', 4, 'Carlos', 'Palacios', '3 de Febrero 989', 'General Pico', '2302424562');
 
 -- Combos --
-insert into combo(nombre, precio, fechainicio, fechafinal, descripcion) values(
-	'Combo de Mate Calabaza y bombilla Pico Loro', 995, '2009-11-13', '2010-11-13', 'Mate Uruguayo hecho de las mejores calabazas con Bombilla Uruguaya Pico de Loro, de acero inoxidable, tipo tambor');
-insert into combo(nombre, precio, fechainicio, fechafinal, descripcion) values(
-	'Combo de Mate Premium y bombilla Pico Loro', 1495, '2009-11-13', '2010-11-13', 'Mate realizado con calabazas y cuero finamente seleccionados con Bombilla Uruguaya Pico de Loro, de acero inoxidable, tipo tambor');
-insert into combo(nombre, precio, fechainicio, fechafinal, descripcion) values(
-	'Combo de Mate, Bombilla, Termo Aluminio y Bolso para Mate', 2149, '2009-11-13', '2010-11-13', 'Mate Uruguayo hecho de las mejores calabazas con Bombilla Matelica tipo resorte, Termo Aluminio Doble Capa y Bolso con cierre, tipo tahg con cierre frontal');
-insert into combo(nombre, precio, fechainicio, fechafinal, descripcion) values(
-	'Combo de Mate Uruguayo Cuero y Mate Uruguayo Calabaza', 1600, '2011-10-15', '2013-12-07', 'Promocion de dos Mates Uruguayos -Calabaza y Cuero-');
-insert into combo(nombre, precio, fechainicio, fechafinal, descripcion) values(
-	'Combo Termo Aluminio y Automate Forrado', 3900, '2010-10-12', '2015-05-01', 'Promocion de termo Aluminio mas Automate-');
-insert into combo(nombre, precio, fechainicio, fechafinal, descripcion) values(
-	'Combo Bolso para Mate Tahg y Yerba Marolio', 850, '2016-04-24', '2018-10-25', 'Promocion de bolso Mate Tahg y Yerba Marolio-');
-insert into combo(nombre, precio, fechainicio, fechafinal, descripcion) values(
-	'Combo Mate Uruguayo Calabaza y Yerba Marolio', 800, '2005-02-15', '2010-05-14', 'Promocion de mate Uruguayo Calabaza y Yerba Marolio-');
-insert into combo(nombre, precio, fechainicio, fechafinal, descripcion) values(
-	'Combo Mate Uruguayo Calabaza y Termo Stanley', 4200, '2017-09-20', '2018-01-12', 'Promocion de mate Uruguayo Calabaza y Termo Stanley-');
-insert into combo(nombre, precio, fechainicio, fechafinal, descripcion) values(
-	'Combo Bombilla Metalica y Termo Aluminio', 699, '2013-08-14', '2019-12-12', 'Promocion de bombilla Melatica y Termo Aluminio-');
-insert into combo(nombre, precio, fechainicio, fechafinal, descripcion) values(
-	'Combo Mate Madera y Yerba Marolio', 500, '2015-11-24', '2017-04-06', 'Promocion de mate Madera y Yerba Marolio-');
+insert into combo(nombre, precio, fechainicio, fechafinal, descripcion, urlfoto) values(
+	'Combo de Mate Calabaza y bombilla Pico Loro', 995, '2009-11-13', '2010-11-13', 'Mate Uruguayo hecho de las mejores calabazas con Bombilla Uruguaya Pico de Loro, de acero inoxidable, tipo tambor','http://d26lpennugtm8s.cloudfront.net/stores/378/873/products/termo-mate-bombilla1-89e70bad3774308ae715361508778283-640-0.png');
+insert into combo(nombre, precio, fechainicio, fechafinal, descripcion, urlfoto) values(
+	'Combo de Mate Premium y bombilla Pico Loro', 1495, '2009-11-13', '2010-11-13', 'Mate realizado con calabazas y cuero finamente seleccionados con Bombilla Uruguaya Pico de Loro, de acero inoxidable, tipo tambor','http://d26lpennugtm8s.cloudfront.net/stores/378/873/products/termo-mate-bombilla1-89e70bad3774308ae715361508778283-640-0.png');
+insert into combo(nombre, precio, fechainicio, fechafinal, descripcion, urlfoto) values(
+	'Combo de Mate, Bombilla, Termo Aluminio y Bolso para Mate', 2149, '2009-11-13', '2010-11-13', 'Mate Uruguayo hecho de las mejores calabazas con Bombilla Matelica tipo resorte, Termo Aluminio Doble Capa y Bolso con cierre, tipo tahg con cierre frontal','https://www.perfumistica.com.ar/wp-content/uploads/2018/09/IMG-20180806-WA0064.jpg');
+insert into combo(nombre, precio, fechainicio, fechafinal, descripcion, urlfoto) values(
+	'Combo de Mate Uruguayo Cuero y Mate Uruguayo Calabaza', 1600, '2011-10-15', '2013-12-07', 'Promocion de dos Mates Uruguayos -Calabaza y Cuero-','https://www.perfumistica.com.ar/wp-content/uploads/2018/09/IMG-20180806-WA0064.jpg');
+insert into combo(nombre, precio, fechainicio, fechafinal, descripcion, urlfoto) values(
+	'Combo Termo Aluminio y Automate Forrado', 3900, '2010-10-12', '2015-05-01', 'Promocion de termo Aluminio mas Automate-','https://static.mercadoshops.com/combo-termera-mate-de-vidrio-termo-bombilla-ym-12-trg_iZ61238066XvZxXpZ1XfZ194629092-12891755742-1.jpgXsZ194629092xIM.jpg');
+insert into combo(nombre, precio, fechainicio, fechafinal, descripcion, urlfoto) values(
+	'Combo Bolso para Mate Tahg y Yerba Marolio', 850, '2016-04-24', '2018-10-25', 'Promocion de bolso Mate Tahg y Yerba Marolio-','https://static.mercadoshops.com/combo-termera-mate-de-vidrio-termo-bombilla-ym-12-trg_iZ61238066XvZxXpZ1XfZ194629092-12891755742-1.jpgXsZ194629092xIM.jpg');
+insert into combo(nombre, precio, fechainicio, fechafinal, descripcion, urlfoto) values(
+	'Combo Mate Uruguayo Calabaza y Yerba Marolio', 800, '2005-02-15', '2010-05-14', 'Promocion de mate Uruguayo Calabaza y Yerba Marolio-','https://www.perfumistica.com.ar/wp-content/uploads/2018/09/12.jpg');
+insert into combo(nombre, precio, fechainicio, fechafinal, descripcion, urlfoto) values(
+	'Combo Mate Uruguayo Calabaza y Termo Stanley', 4200, '2017-09-20', '2018-01-12', 'Promocion de mate Uruguayo Calabaza y Termo Stanley-','https://www.perfumistica.com.ar/wp-content/uploads/2018/09/12.jpg');
+insert into combo(nombre, precio, fechainicio, fechafinal, descripcion, urlfoto) values(
+	'Combo Bombilla Metalica y Termo Aluminio', 699, '2013-08-14', '2019-12-12', 'Promocion de bombilla Melatica y Termo Aluminio-','https://www.perfumistica.com.ar/wp-content/uploads/2018/09/IMG-20180806-WA0059.jpg');
+insert into combo(nombre, precio, fechainicio, fechafinal, descripcion, urlfoto) values(
+	'Combo Mate Madera y Yerba Marolio', 500, '2015-11-24', '2017-04-06', 'Promocion de mate Madera y Yerba Marolio-','https://www.perfumistica.com.ar/wp-content/uploads/2018/09/IMG-20180806-WA0059.jpg');
 
 
 -- ProductoxCombo --
@@ -196,30 +196,30 @@ insert into linea(cantidadproducto, totalproducto, producto, combo, carrito) val
 
 -- Compra --
 -- Se insertan como finalizadas para poder realizar las calificaciones
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	2400,'2019-04-24', '09:22:11', '3000000022222222', 'VISA', 2,'exe.gye@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	5480,'2010-06-12', '22:06:59', '9999888877776666', 'VISA', 1,'juancurtoni@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	27180,'2017-11-28', '15:42:10', '1111222233334444', 'MASTERCARD', 3,'lazaro@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	2000,'2014-04-03', '19:30:46', '2222333344449999', 'MASTERCARD', 4,'exe.gye@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	3000,'2018-06-22', '10:20:37', '4444555544445555', 'NARANJA', 5,'danieldorado@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	32596,'2019-02-24', '02:24:19', '9999222211110000', 'NARANJA', 6,'luisreyes@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	27180,'2015-10-31', '07:14:49', '8888444499992222', 'CABAL', 7,'juancurtoni@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	2000,'2016-08-14', '20:56:11', '1111333311112222', 'CABAL', 8,'juancurtoni@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	2000,'2019-01-02', '23:11:00', '5555333322221111', 'VISA', 9,'carlospalacios@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	2400,'2017-05-12', '13:48:15', '4444000044440000', 'MASTERCARD', 10,'kevinchen@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	2000,'2018-12-12', '11:42:15', '4422000011114444', 'MASTERCARD', 11,'exe.gye@gmail.com', 'FINALIZADA');
-insert into compra(total, fecha, hora, numerotarjeta, tipotarjeta, carrito, usuario, estado) values(
-	3290,'2014-05-22', '19:30:11', '4422999912214488', 'MASTERCARD', 12,'kevinchen@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	2400,'2019-04-24', '09:22:11', 2,'exe.gye@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	5480,'2010-06-12', '22:06:59', 1,'juancurtoni@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	27180,'2017-11-28', '15:42:10', 3,'lazaro@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	2000,'2014-04-03', '19:30:46', 4,'exe.gye@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	3000,'2018-06-22', '10:20:37', 5,'danieldorado@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	32596,'2019-02-24', '02:24:19', 6,'luisreyes@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	27180,'2015-10-31', '07:14:49', 7,'juancurtoni@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	2000,'2016-08-14', '20:56:11', 8,'juancurtoni@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	2000,'2019-01-02', '23:11:00', 9,'carlospalacios@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	2400,'2017-05-12', '13:48:15', 10,'kevinchen@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	2000,'2018-12-12', '11:42:15', 11,'exe.gye@gmail.com', 'FINALIZADA');
+insert into compra(total, fecha, hora, carrito, usuario, estado) values(
+	3290,'2014-05-22', '19:30:11', 12,'kevinchen@gmail.com', 'FINALIZADA');
 
 -- Calificacion --
 insert into calificacion(calificacion, fecha, hora, usuario, producto) values(
