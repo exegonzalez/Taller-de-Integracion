@@ -43,7 +43,7 @@ create table proveedor(
 create table producto(
 	codigo SERIAL,
 	nombre varchar(70) NOT NULL,
-	stock integer NOT NULL check (stock>0),
+	stock integer NOT NULL check (stock>=0),
 	precio float NOT NULL check (precio>0),
 	stockmin integer NOT NULL check (stockmin>0) default 10,
 	descripcion varchar(255) NOT NULL,
@@ -100,6 +100,7 @@ create table productoxcombo(
 
 create table carrito(
 	codigo SERIAL,
+	activo boolean default true,
 	constraint "carrito_pkey" Primary Key (codigo)
 );
 
