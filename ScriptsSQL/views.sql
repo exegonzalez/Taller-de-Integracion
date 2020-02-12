@@ -15,4 +15,5 @@ WHERE pxc1.producto=pxc2.producto and pxc1.combo!=pxc2.combo;
 CREATE VIEW lineaProductos AS SELECT * FROM linea WHERE producto is not null;
 
 -- 7. Listado de productos que estan por debajo del stock minimo disponible --
-CREATE VIEW debajoStockMin AS SELECT p.codigo, p.nombre, p.tipo, p.proveedor FROM producto p where p.stock < p.stockmin;
+CREATE VIEW debajoStockMin AS SELECT p.codigo, p.nombre, p.stock, p.precio, p.stockmin, p.descripcion, p.calificacion, p.tipo, p.proveedor FROM producto p where p.stock < p.stockmin;
+
