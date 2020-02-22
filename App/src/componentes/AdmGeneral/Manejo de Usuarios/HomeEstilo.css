@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+
+.test-menu {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 0;
+          flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid #0288D1;
+  border-radius: 5px;
+  overflow: hidden;
+  min-width: 500px;
+}
+.test-menu__item {
+  min-width: 50%;
+  min-height: 100px;
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  position: relative;
+  background: #B9C3CB;
+  -webkit-transition: background 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+}
+.test-menu__item:nth-child(2) {
+  box-shadow: -1px 0 0 0 #BDB7B6;
+}
+.test-menu__item:nth-child(3) {
+  box-shadow: 0 -1px 0 0 #BDB7B6;
+}
+.test-menu__item:nth-child(4) {
+  box-shadow: 0 -1px 0 0 #BDB7B6, -1px 0 0 0 #BDB7B6;
+}
+.test-menu__item:nth-child(5) {
+    box-shadow: 0 -1px 0 0 #BDB7B6, -1px 0 0 0 #BDB7B6;
+  }
+.test-menu__item:nth-child(6) {
+    box-shadow: 0 -1px 0 0 #BDB7B6, -1px 0 0 0 #BDB7B6;
+  }
+  .test-menu__item:nth-child(7) {
+    box-shadow: 0 -1px 0 0 #BDB7B6, -1px 0 0 0 #BDB7B6;
+  }
+.test-menu__item:hover {
+  background: #0288D1;
+}
+.test-menu__link {
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+.test-menu__link:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.test-menu__link:hover {
+  color: #B3E5FC;
+}

@@ -1,0 +1,7 @@
+.dropdown-menu-center{
+
+    left: 50%;
+    right: auto;
+    text-align:center;
+    transform: translate(32%,0)
+}

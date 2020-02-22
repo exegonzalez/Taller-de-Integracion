@@ -1,0 +1,21 @@
+
+   
+      
+    .mt-5 {
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        padding: 20px;
+        
+      }
+
+      .mover{
+
+        margin-top: -30px;
+      }
+
+      .prueba{
+
+        margin-top: 10px;
+      }
